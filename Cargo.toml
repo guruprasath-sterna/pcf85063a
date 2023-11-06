@@ -1,6 +1,6 @@
 [package]
 name = "pcf85063a"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "README.md"
 description = "An embedded-hal driver for the pcf85063a RTC"
