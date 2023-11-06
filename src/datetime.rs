@@ -30,8 +30,8 @@ where
             )?,
             Time::from_hms(
                 decode_bcd(data[2] & 0x3f),
-                decode_bcd(data[1] & 0b0111_1111),
-                decode_bcd(data[0] & 0b0111_1111),
+                decode_bcd(data[1] & 0x7f),
+                decode_bcd(data[0] & 0x7f),
             )?,
         ))
     }
