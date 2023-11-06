@@ -77,7 +77,7 @@ impl BitFlags {
     pub const AE: u8 = 0b1000_0000; // alarm enable/disable for all five (s/m/h/d/wd) settings
 }
 
-const DEVICE_ADDRESS: u8 = 0b1010001;
+const DEVICE_ADDRESS: u8 = 0x51;
 
 /// Two possible choices, used for various enable/disable bit flags
 #[allow(non_camel_case_types)]
